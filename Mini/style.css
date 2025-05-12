@@ -1,0 +1,138 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 1450px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header{
+    height:85px;
+    width: full;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 2px 2px 8px 6px black;
+}
+
+.logo img{
+    height: 70px;
+    width: 100%;
+    top: 15px;
+    margin-left: 10px;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    padding: 10px;
+}
+
+.nav-links ul li{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.nav-links ul li{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button{
+    height: 45px;
+    width: 95px;
+    margin: 15px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+button:hover{
+    background-color: rgb(201, 81, 81);
+    color: white;
+}
+
+
+.main{
+    display: flex;
+    height: 700px;
+    width: 1125px;
+    background-color: white;
+    margin-top: 140px;
+    margin-left: 157px;
+}
+
+.main-box{
+    font-family: poppins;
+    height: 615px;
+    width: 600px;
+    gap: 35px;
+    justify-content: center;
+}
+
+.text-area h1{
+    font-size: 80px ;
+    line-height: 102px ;
+    letter-spacing:  0% ;
+    font-weight: bold;
+}
+
+.text-area p{
+    font-size: 16px;
+    letter-spacing: 0%;
+    line-height: 1.6;
+}
+
+
+.buttons{
+    display: flex;
+    height: 41px;
+    width: 390px;
+    gap: 10px;
+}
+
+.shop-now{
+    width: 240px;
+    background-color: red;
+    gap: 10px;
+}
+
+.category{
+    width: 145px;
+    background-color: white;
+    color: black;
+}
+
+.category:hover{
+    background-color: black;
+    color: white;
+}
+
+p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 450;
+    padding-top: 10px;
+}
+
+.icons{
+    height: 32px;
+    width: 80px;
+    gap: 90px;
+}
+
+.hero-image{
+    height: 500px;
+    width: 550px;
+    margin-top: 90px;
+}
+
